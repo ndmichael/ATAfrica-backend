@@ -90,11 +90,17 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'robo_advisor',
+        # 'NAME': 'robo_advisor',
+        # 'USER': "postgres",
+        # 'PASSWORD': "daliMIKE0417",
+        # 'HOST': 'localhost',
+        # 'PORT': 5432
+
+        'NAME': 'railway',
         'USER': "postgres",
-        'PASSWORD': "daliMIKE0417",
-        'HOST': 'localhost',
-        'PORT': 5432
+        'PASSWORD': "E2a6Dd-6--5g2fagCefFG14-e1Ea43-B",
+        'HOST': "monorail.proxy.rlwy.net",
+        'PORT': 38507
     }
 }
 
